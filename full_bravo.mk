@@ -21,9 +21,10 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/htc/bravo/bravo_eu.mk)
-$(call inherit-product, $(SRC_EVERVOLV_DIR)/product/lite_base_telephony.mk)
+#$(call inherit-product, $(SRC_EVERVOLV_DIR)/product/lite_base_telephony.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := full_bravo
 PRODUCT_DEVICE := bravo
 PRODUCT_MODEL := Full Android on Bravo
+PRODUCT_BRAND := bravo
